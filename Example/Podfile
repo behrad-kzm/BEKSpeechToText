@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BEKSpeechToText_Example' do
+  pod 'BEKSpeechToText', :path => '../'
+
+  target 'BEKSpeechToText_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
