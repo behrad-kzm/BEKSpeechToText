@@ -1,22 +1,25 @@
 {
   "name": "BEKSpeechToText",
-  "version": "0.1.0",
-  "summary": "A short description of BEKSpeechToText.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.1",
+  "summary": "A Swift Library to Convert Speech to Text Using Google API",
+  "description": "A Swift Library to Convert Speech to Text Using Google API.\nUsing the configuration you can change the language from the default (Persian) to all google supported languages.",
   "homepage": "https://github.com/behrad-kzm/BEKSpeechToText",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "behrad-kzm": "kazemi.behrad@golrang.com"
+    "behrad-kzm": "behrad.kzm@gmail.com"
   },
   "source": {
     "git": "https://github.com/behrad-kzm/BEKSpeechToText.git",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "BEKSpeechToText/Classes/**/*"
+  "social_media_url": "https://web.telegram.org/#/im?p=@berad",
+  "swift_versions": "5.0",
+  "source_files": "BEKSpeechToText/Classes/**/*",
+  "swift_version": "5.0"
 }

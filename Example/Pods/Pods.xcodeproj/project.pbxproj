@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		00AF3EED860A30C04314A5BC801873AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		132AEDFE23BB3B1900A64670 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDF623BB3B1900A64670 /* ResultModel.swift */; };
-		132AEE0023BB3B1900A64670 /* BEKSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDF823BB3B1900A64670 /* BEKSpeech.swift */; };
-		132AEE0123BB3B1900A64670 /* BEKDefaultConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDF923BB3B1900A64670 /* BEKDefaultConfiguration.swift */; };
-		132AEE0223BB3B1900A64670 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDFA23BB3B1900A64670 /* AudioRecorder.swift */; };
-		132AEE0323BB3B1900A64670 /* BEKSpeechConfigType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDFB23BB3B1900A64670 /* BEKSpeechConfigType.swift */; };
-		132AEE0423BB3B1900A64670 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDFC23BB3B1900A64670 /* APIHandler.swift */; };
-		132AEE0523BB3B1900A64670 /* BEKSpeechDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDFD23BB3B1900A64670 /* BEKSpeechDelegate.swift */; };
-		1CC9AB3E37A34CA51F813E1CF377B10C /* BEKSpeechToText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE33E0104B4F740C15382DADFC86E5 /* BEKSpeechToText-dummy.m */; };
+		01A910D514401E03F1658C651A999DAE /* BEKDefaultConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4AA61CBA1C49C354BB8CF2AE6F759 /* BEKDefaultConfiguration.swift */; };
+		050A12D3FC119B65340A301EFE1B6E6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1148369FB5717354EDFF9AD658C57A87 /* BEKSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA52FA7956D59A3BE8C4D654B38FB9 /* BEKSpeech.swift */; };
+		175C22450CC08BEC307A4871F15E7291 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E19B0A3738EC055E19BC10C4BB93A6 /* ResultModel.swift */; };
 		20C9E4181622B515D75E7F356D8EBFE2 /* Pods-BEKSpeechToText_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F833891B69A525D6B7C8938B7A0389 /* Pods-BEKSpeechToText_Example-dummy.m */; };
-		2B62EF6A043497F94C979AB4627CE3EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3C0A2D4BAA760105E3D270B95C9555C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3D0F9273433C7EA0914868DFBD0DB089 /* Pods-BEKSpeechToText_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC5BA81FEC042BA9C83A5575E2A0F6A /* Pods-BEKSpeechToText_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F8EB557F7EE3F69523B6AA655106362 /* BEKSpeechToText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DADF9A812D8273CA34222776B8D73156 /* BEKSpeechToText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50FAC1BF792D945FF2FF06C00A9D7ECD /* Pods-BEKSpeechToText_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 084E4FA04E43A84EC42B16026B00C291 /* Pods-BEKSpeechToText_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68BA86451C280FCC602A4F976852A64F /* BEKSpeechToText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFB1A15D6E695BA82303EDE2D899629 /* BEKSpeechToText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DA1C9F63B64E2F985A40B081D54AD10 /* BEKSpeechDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F275D49B11F56834C23137A38D72B11D /* BEKSpeechDelegate.swift */; };
+		616094FEC1608C5BB8A40A7DCBA38A06 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489CB9E21F729FB89C49EAA411B630A3 /* APIHandler.swift */; };
 		68C45A71886B9B2835EE3DF74E181990 /* Pods-BEKSpeechToText_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D712FF3268183D3CB6076D057825E2 /* Pods-BEKSpeechToText_Tests-dummy.m */; };
+		9DF94140BEA5D9C8CC579C2E5AC3BBC0 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB2CD6DF9BB46387B7112F8D1F72F8 /* AudioRecorder.swift */; };
+		C99A7942480CCED6CDCE9FE824B3B55C /* BEKSpeechToText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1408589ED9CC84E99BA118A91CE24FA7 /* BEKSpeechToText-dummy.m */; };
+		F796DD51C49EA16276D62FECA188DC82 /* BEKSpeechConfigType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8766F8EC061D5451983CE70EA1705170 /* BEKSpeechConfigType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,59 +44,59 @@
 
 /* Begin PBXFileReference section */
 		084E4FA04E43A84EC42B16026B00C291 /* Pods-BEKSpeechToText_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEKSpeechToText_Example-umbrella.h"; sourceTree = "<group>"; };
-		0AB7777801D91C4AB292A4AC90527FE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		12B2D87131937D6F6C20B606E4B79A64 /* Pods_BEKSpeechToText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEKSpeechToText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		132AEDF623BB3B1900A64670 /* ResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
-		132AEDF823BB3B1900A64670 /* BEKSpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKSpeech.swift; sourceTree = "<group>"; };
-		132AEDF923BB3B1900A64670 /* BEKDefaultConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKDefaultConfiguration.swift; sourceTree = "<group>"; };
-		132AEDFA23BB3B1900A64670 /* AudioRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
-		132AEDFB23BB3B1900A64670 /* BEKSpeechConfigType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKSpeechConfigType.swift; sourceTree = "<group>"; };
-		132AEDFC23BB3B1900A64670 /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
-		132AEDFD23BB3B1900A64670 /* BEKSpeechDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKSpeechDelegate.swift; sourceTree = "<group>"; };
+		12B2D87131937D6F6C20B606E4B79A64 /* Pods_BEKSpeechToText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEKSpeechToText_Tests.framework; path = "Pods-BEKSpeechToText_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1408589ED9CC84E99BA118A91CE24FA7 /* BEKSpeechToText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEKSpeechToText-dummy.m"; sourceTree = "<group>"; };
 		148391B3D8450C93312D7F4F506869C4 /* Pods-BEKSpeechToText_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BEKSpeechToText_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1630C0F053F7EAA302DEAB41B36C7C8F /* Pods-BEKSpeechToText_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEKSpeechToText_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1FCE33E0104B4F740C15382DADFC86E5 /* BEKSpeechToText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEKSpeechToText-dummy.m"; sourceTree = "<group>"; };
+		17CDF0BBD5888C5A6D876614530B3BB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		20D712FF3268183D3CB6076D057825E2 /* Pods-BEKSpeechToText_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEKSpeechToText_Tests-dummy.m"; sourceTree = "<group>"; };
-		2FFB1A15D6E695BA82303EDE2D899629 /* BEKSpeechToText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEKSpeechToText-umbrella.h"; sourceTree = "<group>"; };
+		2FEA32656F3BE25AE9591CDE805D3B21 /* BEKSpeechToText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEKSpeechToText-prefix.pch"; sourceTree = "<group>"; };
 		308F6EE115B352F975A0551069318695 /* Pods-BEKSpeechToText_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEKSpeechToText_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		37927370AAA9E65E41A1E3E93608C69C /* Pods-BEKSpeechToText_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEKSpeechToText_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		489CB9E21F729FB89C49EAA411B630A3 /* APIHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIHandler.swift; path = BEKSpeechToText/Classes/APIHandler.swift; sourceTree = "<group>"; };
 		4EBB517379CC1DAAA33098A6DCD0CD83 /* Pods-BEKSpeechToText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEKSpeechToText_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		50ACBEE5214CD485144A6B1F129C7C22 /* BEKSpeechToText-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEKSpeechToText-Info.plist"; sourceTree = "<group>"; };
+		4EF4AA61CBA1C49C354BB8CF2AE6F759 /* BEKDefaultConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BEKDefaultConfiguration.swift; path = BEKSpeechToText/Classes/BEKDefaultConfiguration.swift; sourceTree = "<group>"; };
 		529BA67949EB29720936292902B24C60 /* Pods-BEKSpeechToText_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEKSpeechToText_Example-Info.plist"; sourceTree = "<group>"; };
 		52F833891B69A525D6B7C8938B7A0389 /* Pods-BEKSpeechToText_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEKSpeechToText_Example-dummy.m"; sourceTree = "<group>"; };
-		6AAA1DF8B10ED1DA903CF8ED4AE2833F /* Pods_BEKSpeechToText_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEKSpeechToText_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AA52FA7956D59A3BE8C4D654B38FB9 /* BEKSpeech.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BEKSpeech.swift; path = BEKSpeechToText/Classes/BEKSpeech.swift; sourceTree = "<group>"; };
+		57E19B0A3738EC055E19BC10C4BB93A6 /* ResultModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultModel.swift; path = BEKSpeechToText/Classes/ResultModel.swift; sourceTree = "<group>"; };
+		58C8A65313D453E6D4398FA73B44633F /* BEKSpeechToText.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BEKSpeechToText.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6AAA1DF8B10ED1DA903CF8ED4AE2833F /* Pods_BEKSpeechToText_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEKSpeechToText_Example.framework; path = "Pods-BEKSpeechToText_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFB2CD6DF9BB46387B7112F8D1F72F8 /* AudioRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioRecorder.swift; path = BEKSpeechToText/Classes/AudioRecorder.swift; sourceTree = "<group>"; };
 		8542BC5E22A9B0DCA5C5A8DEAF4F5959 /* Pods-BEKSpeechToText_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BEKSpeechToText_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8766F8EC061D5451983CE70EA1705170 /* BEKSpeechConfigType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BEKSpeechConfigType.swift; path = BEKSpeechToText/Classes/BEKSpeechConfigType.swift; sourceTree = "<group>"; };
 		879FD2506D60842817C8C775158585C1 /* Pods-BEKSpeechToText_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BEKSpeechToText_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4199FF42921204F4AED57490B9CB196 /* BEKSpeechToText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEKSpeechToText-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DBCEBC9CCBCC1A3EE2E9D211F1AA49E /* BEKSpeechToText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEKSpeechToText.modulemap; sourceTree = "<group>"; };
+		A4F4335BAB753BD7A366309770D97AA9 /* BEKSpeechToText-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEKSpeechToText-Info.plist"; sourceTree = "<group>"; };
 		AB8DDF14934B9AE5C21F2B9E92728D7D /* Pods-BEKSpeechToText_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEKSpeechToText_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AC2BFF6E45BCE7427A637A19F34FFB32 /* BEKSpeechToText.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BEKSpeechToText.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACC5BA81FEC042BA9C83A5575E2A0F6A /* Pods-BEKSpeechToText_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEKSpeechToText_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B3F2F030FEEBA5E988393D29E9634150 /* Pods-BEKSpeechToText_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEKSpeechToText_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BFB5FB862B368BC8F536DCB5FB3669E5 /* Pods-BEKSpeechToText_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEKSpeechToText_Tests-Info.plist"; sourceTree = "<group>"; };
-		C4B08300ED58D86E29585B020BCA5864 /* BEKSpeechToText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BEKSpeechToText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B08300ED58D86E29585B020BCA5864 /* BEKSpeechToText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEKSpeechToText.framework; path = BEKSpeechToText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAE64FA3CD33E538D54633BCD6BB9A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DADF9A812D8273CA34222776B8D73156 /* BEKSpeechToText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEKSpeechToText-umbrella.h"; sourceTree = "<group>"; };
 		E19851493C4CF64A8B0C2C94A4222135 /* Pods-BEKSpeechToText_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEKSpeechToText_Example.modulemap"; sourceTree = "<group>"; };
 		F0A80F6FC007EAA8FDE91DF45B076F7D /* Pods-BEKSpeechToText_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEKSpeechToText_Tests.modulemap"; sourceTree = "<group>"; };
-		F613AA37DCB391E3E8C644084BA8B72B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		F749D15ACD67D86109939DA62E29B2A8 /* BEKSpeechToText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEKSpeechToText.modulemap; sourceTree = "<group>"; };
-		FC0769FA290193172A8A664E681C5928 /* BEKSpeechToText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEKSpeechToText.xcconfig; sourceTree = "<group>"; };
+		F275D49B11F56834C23137A38D72B11D /* BEKSpeechDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BEKSpeechDelegate.swift; path = BEKSpeechToText/Classes/BEKSpeechDelegate.swift; sourceTree = "<group>"; };
+		F606DE9B047925C09B638DEE7C99E8A6 /* BEKSpeechToText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEKSpeechToText.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		051D93440B6D8294465CB53AE7EC4FA8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B62EF6A043497F94C979AB4627CE3EB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		52F4A6BF127D0DC1F26873508003E351 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3C0A2D4BAA760105E3D270B95C9555C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E192A68CA2CE688BBA02627547E0AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050A12D3FC119B65340A301EFE1B6E6B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,52 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		132AEDF523BB3A6800A64670 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				132AEDFC23BB3B1900A64670 /* APIHandler.swift */,
-				132AEDFA23BB3B1900A64670 /* AudioRecorder.swift */,
-				132AEDF923BB3B1900A64670 /* BEKDefaultConfiguration.swift */,
-				132AEDF823BB3B1900A64670 /* BEKSpeech.swift */,
-				132AEDFB23BB3B1900A64670 /* BEKSpeechConfigType.swift */,
-				132AEDFD23BB3B1900A64670 /* BEKSpeechDelegate.swift */,
-				132AEDF623BB3B1900A64670 /* ResultModel.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		149F0149FA3481115444AFF559FA652B /* BEKSpeechToText */ = {
-			isa = PBXGroup;
-			children = (
-				8F0E74CFAB4B719D07D620A28A7CF5BC /* Pod */,
-				367BC90C4A0484CCB91DE2D9AF0043AD /* Support Files */,
-			);
-			name = BEKSpeechToText;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		323DEFA400150869750D97E7D22A7E9C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				149F0149FA3481115444AFF559FA652B /* BEKSpeechToText */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		367BC90C4A0484CCB91DE2D9AF0043AD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F749D15ACD67D86109939DA62E29B2A8 /* BEKSpeechToText.modulemap */,
-				FC0769FA290193172A8A664E681C5928 /* BEKSpeechToText.xcconfig */,
-				1FCE33E0104B4F740C15382DADFC86E5 /* BEKSpeechToText-dummy.m */,
-				50ACBEE5214CD485144A6B1F129C7C22 /* BEKSpeechToText-Info.plist */,
-				A4199FF42921204F4AED57490B9CB196 /* BEKSpeechToText-prefix.pch */,
-				2FFB1A15D6E695BA82303EDE2D899629 /* BEKSpeechToText-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BEKSpeechToText";
-			sourceTree = "<group>";
-		};
 		73B60883E3043FA4A571F01223E807C7 /* Pods-BEKSpeechToText_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,13 +127,12 @@
 			path = "Target Support Files/Pods-BEKSpeechToText_Tests";
 			sourceTree = "<group>";
 		};
-		8F0E74CFAB4B719D07D620A28A7CF5BC /* Pod */ = {
+		758EC179F853801B5F154C30BB2DEA5E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				132AEDF523BB3A6800A64670 /* Classes */,
-				AC2BFF6E45BCE7427A637A19F34FFB32 /* BEKSpeechToText.podspec */,
-				F613AA37DCB391E3E8C644084BA8B72B /* LICENSE */,
-				0AB7777801D91C4AB292A4AC90527FE0 /* README.md */,
+				58C8A65313D453E6D4398FA73B44633F /* BEKSpeechToText.podspec */,
+				17CDF0BBD5888C5A6D876614530B3BB9 /* LICENSE */,
+				CDAE64FA3CD33E538D54633BCD6BB9A4 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -220,6 +173,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		AE45191F9897E5F2D8796EE3D364EEDB /* BEKSpeechToText */ = {
+			isa = PBXGroup;
+			children = (
+				489CB9E21F729FB89C49EAA411B630A3 /* APIHandler.swift */,
+				7CFB2CD6DF9BB46387B7112F8D1F72F8 /* AudioRecorder.swift */,
+				4EF4AA61CBA1C49C354BB8CF2AE6F759 /* BEKDefaultConfiguration.swift */,
+				54AA52FA7956D59A3BE8C4D654B38FB9 /* BEKSpeech.swift */,
+				8766F8EC061D5451983CE70EA1705170 /* BEKSpeechConfigType.swift */,
+				F275D49B11F56834C23137A38D72B11D /* BEKSpeechDelegate.swift */,
+				57E19B0A3738EC055E19BC10C4BB93A6 /* ResultModel.swift */,
+				758EC179F853801B5F154C30BB2DEA5E /* Pod */,
+				C7A31DE43A9BBD63DC2927AA506D4413 /* Support Files */,
+			);
+			name = BEKSpeechToText;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,11 +198,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C7A31DE43A9BBD63DC2927AA506D4413 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCEBC9CCBCC1A3EE2E9D211F1AA49E /* BEKSpeechToText.modulemap */,
+				F606DE9B047925C09B638DEE7C99E8A6 /* BEKSpeechToText.xcconfig */,
+				1408589ED9CC84E99BA118A91CE24FA7 /* BEKSpeechToText-dummy.m */,
+				A4F4335BAB753BD7A366309770D97AA9 /* BEKSpeechToText-Info.plist */,
+				2FEA32656F3BE25AE9591CDE805D3B21 /* BEKSpeechToText-prefix.pch */,
+				DADF9A812D8273CA34222776B8D73156 /* BEKSpeechToText-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BEKSpeechToText";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				323DEFA400150869750D97E7D22A7E9C /* Development Pods */,
+				D8047C9A61726CB24198A0D39BAF000A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				92FFB762DF3F0F9AF3D494BF8C9E2CF4 /* Products */,
 				993464D0F0E6F7367270E8F7D97353EE /* Targets Support Files */,
@@ -247,14 +231,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D8047C9A61726CB24198A0D39BAF000A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE45191F9897E5F2D8796EE3D364EEDB /* BEKSpeechToText */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C6170828712290B371C9F64C39D2921D /* Headers */ = {
+		A0DE0AAC7777B9A999AA76FB91464FB1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68BA86451C280FCC602A4F976852A64F /* BEKSpeechToText-umbrella.h in Headers */,
+				4F8EB557F7EE3F69523B6AA655106362 /* BEKSpeechToText-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,12 +290,12 @@
 		};
 		E753135045E0D76F406E8254CA7C2D63 /* BEKSpeechToText */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5A75E02B648AEAA10BB110D6082D86D /* Build configuration list for PBXNativeTarget "BEKSpeechToText" */;
+			buildConfigurationList = 0C3E9E4CB55B5EC2E38CF38FD3F84D19 /* Build configuration list for PBXNativeTarget "BEKSpeechToText" */;
 			buildPhases = (
-				C6170828712290B371C9F64C39D2921D /* Headers */,
-				8086ED8BFCCC6FE25F716AAE69A21C36 /* Sources */,
-				051D93440B6D8294465CB53AE7EC4FA8 /* Frameworks */,
-				C5CEC1984634E137C421320B2C292FCF /* Resources */,
+				A0DE0AAC7777B9A999AA76FB91464FB1 /* Headers */,
+				FB7E5101FE0B425712D6645F0BD3289D /* Sources */,
+				9E192A68CA2CE688BBA02627547E0AA5 /* Frameworks */,
+				94E2E36964C05F58C6E6BF44229FBCCE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -341,11 +333,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					E753135045E0D76F406E8254CA7C2D63 = {
-						LastSwiftMigration = 1130;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,14 +362,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B61004FF482F14875C62C951CD3D3881 /* Resources */ = {
+		94E2E36964C05F58C6E6BF44229FBCCE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5CEC1984634E137C421320B2C292FCF /* Resources */ = {
+		B61004FF482F14875C62C951CD3D3881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,21 +379,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8086ED8BFCCC6FE25F716AAE69A21C36 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				132AEE0423BB3B1900A64670 /* APIHandler.swift in Sources */,
-				132AEDFE23BB3B1900A64670 /* ResultModel.swift in Sources */,
-				1CC9AB3E37A34CA51F813E1CF377B10C /* BEKSpeechToText-dummy.m in Sources */,
-				132AEE0323BB3B1900A64670 /* BEKSpeechConfigType.swift in Sources */,
-				132AEE0023BB3B1900A64670 /* BEKSpeech.swift in Sources */,
-				132AEE0123BB3B1900A64670 /* BEKDefaultConfiguration.swift in Sources */,
-				132AEE0223BB3B1900A64670 /* AudioRecorder.swift in Sources */,
-				132AEE0523BB3B1900A64670 /* BEKSpeechDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		905EEEABE86EC7112ECA85AA674BF0E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -420,6 +392,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				20C9E4181622B515D75E7F356D8EBFE2 /* Pods-BEKSpeechToText_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7E5101FE0B425712D6645F0BD3289D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616094FEC1608C5BB8A40A7DCBA38A06 /* APIHandler.swift in Sources */,
+				9DF94140BEA5D9C8CC579C2E5AC3BBC0 /* AudioRecorder.swift in Sources */,
+				01A910D514401E03F1658C651A999DAE /* BEKDefaultConfiguration.swift in Sources */,
+				1148369FB5717354EDFF9AD658C57A87 /* BEKSpeech.swift in Sources */,
+				F796DD51C49EA16276D62FECA188DC82 /* BEKSpeechConfigType.swift in Sources */,
+				5DA1C9F63B64E2F985A40B081D54AD10 /* BEKSpeechDelegate.swift in Sources */,
+				C99A7942480CCED6CDCE9FE824B3B55C /* BEKSpeechToText-dummy.m in Sources */,
+				175C22450CC08BEC307A4871F15E7291 /* ResultModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,39 +428,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10B3C57BA9C3B8D5F9E4B4EAA3A3A025 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC0769FA290193172A8A664E681C5928 /* BEKSpeechToText.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BEKSpeechToText/BEKSpeechToText-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BEKSpeechToText/BEKSpeechToText-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BEKSpeechToText/BEKSpeechToText.modulemap";
-				PRODUCT_MODULE_NAME = BEKSpeechToText;
-				PRODUCT_NAME = BEKSpeechToText;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1E472D42376F59BFA32F76D965574D51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3F2F030FEEBA5E988393D29E9634150 /* Pods-BEKSpeechToText_Example.release.xcconfig */;
@@ -595,7 +549,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -731,11 +686,11 @@
 			};
 			name = Debug;
 		};
-		EDF2605B49625E1CAA63A1915C2FC7B3 /* Release */ = {
+		C782A484E2A5D051F5AF1DF3B7F7FFB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC0769FA290193172A8A664E681C5928 /* BEKSpeechToText.xcconfig */;
+			baseConfigurationReference = F606DE9B047925C09B638DEE7C99E8A6 /* BEKSpeechToText.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -748,7 +703,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BEKSpeechToText/BEKSpeechToText-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BEKSpeechToText/BEKSpeechToText-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BEKSpeechToText/BEKSpeechToText.modulemap";
 				PRODUCT_MODULE_NAME = BEKSpeechToText;
@@ -756,7 +711,39 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DECDA9CB712D6C41E1E4CAD4471DF2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F606DE9B047925C09B638DEE7C99E8A6 /* BEKSpeechToText.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEKSpeechToText/BEKSpeechToText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEKSpeechToText/BEKSpeechToText-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEKSpeechToText/BEKSpeechToText.modulemap";
+				PRODUCT_MODULE_NAME = BEKSpeechToText;
+				PRODUCT_NAME = BEKSpeechToText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -767,6 +754,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C3E9E4CB55B5EC2E38CF38FD3F84D19 /* Build configuration list for PBXNativeTarget "BEKSpeechToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C782A484E2A5D051F5AF1DF3B7F7FFB0 /* Debug */,
+				DECDA9CB712D6C41E1E4CAD4471DF2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -781,15 +777,6 @@
 			buildConfigurations = (
 				C06C101F2E2034A489AF6373741E1699 /* Debug */,
 				AA8374D2927D804B503C2A2E85817DA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A5A75E02B648AEAA10BB110D6082D86D /* Build configuration list for PBXNativeTarget "BEKSpeechToText" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10B3C57BA9C3B8D5F9E4B4EAA3A3A025 /* Debug */,
-				EDF2605B49625E1CAA63A1915C2FC7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

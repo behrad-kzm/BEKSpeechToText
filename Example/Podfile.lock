@@ -1,5 +1,5 @@
 PODS:
-  - BEKSpeechToText (0.1.0)
+  - BEKSpeechToText (1.0.1)
 
 DEPENDENCIES:
   - BEKSpeechToText (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BEKSpeechToText: 84ae118aad5a7c61dd2f8b331631dba3c688a738
+  BEKSpeechToText: 3dc496250634bcea84e5086bf04165f1fbb30ae1
 
 PODFILE CHECKSUM: 01e52bd285067922b560d72123f0aac78bcfef57
 
