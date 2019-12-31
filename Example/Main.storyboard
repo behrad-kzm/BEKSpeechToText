@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hold record button and say something" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGz-nJ-kp0">
+                                <rect key="frame" x="16" y="108" width="382" height="67"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qrl-EM-4qN">
+                                <rect key="frame" x="138" y="660" width="138" height="138"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Record" translatesAutoresizingMaskIntoConstraints="NO" id="JTM-uz-GUH">
+                                        <rect key="frame" x="41.5" y="41.5" width="55" height="55"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="JTM-uz-GUH" secondAttribute="height" multiplier="1:1" id="iJG-cr-c2K"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NO4-0t-eED">
+                                        <rect key="frame" x="0.0" y="0.0" width="138" height="138"/>
+                                        <connections>
+                                            <action selector="startRecording:" destination="BYZ-38-t0r" eventType="touchDown" id="Rhw-A7-uNE"/>
+                                            <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2qb-bt-oJV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="JTM-uz-GUH" firstAttribute="centerY" secondItem="Qrl-EM-4qN" secondAttribute="centerY" id="0nD-NC-3oH"/>
+                                    <constraint firstItem="NO4-0t-eED" firstAttribute="leading" secondItem="Qrl-EM-4qN" secondAttribute="leading" id="Ing-kD-moS"/>
+                                    <constraint firstAttribute="bottom" secondItem="NO4-0t-eED" secondAttribute="bottom" id="Iuf-UV-MF9"/>
+                                    <constraint firstItem="JTM-uz-GUH" firstAttribute="centerX" secondItem="Qrl-EM-4qN" secondAttribute="centerX" id="JmN-y4-y2Q"/>
+                                    <constraint firstAttribute="trailing" secondItem="NO4-0t-eED" secondAttribute="trailing" id="e0i-Lw-CNE"/>
+                                    <constraint firstItem="NO4-0t-eED" firstAttribute="top" secondItem="Qrl-EM-4qN" secondAttribute="top" id="idw-5P-eZ0"/>
+                                    <constraint firstItem="JTM-uz-GUH" firstAttribute="width" secondItem="Qrl-EM-4qN" secondAttribute="height" multiplier="1:2.5" id="t2Z-x9-Y6z"/>
+                                    <constraint firstAttribute="width" secondItem="Qrl-EM-4qN" secondAttribute="height" multiplier="1:1" id="vfW-hV-2Zm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kGz-nJ-kp0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="19G-hf-LUo"/>
+                            <constraint firstItem="Qrl-EM-4qN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7vf-OR-Ohu"/>
+                            <constraint firstItem="Qrl-EM-4qN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="9Di-hw-Zy5"/>
+                            <constraint firstItem="kGz-nJ-kp0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="m39-2j-nNI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kGz-nJ-kp0" secondAttribute="trailing" constant="16" id="opT-Qz-uP7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Qrl-EM-4qN" secondAttribute="bottom" constant="64" id="tnn-8h-vTN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonContainer" destination="Qrl-EM-4qN" id="R22-WM-L4E"/>
+                        <outlet property="responseLabel" destination="kGz-nJ-kp0" id="1Mi-x6-Uou"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="73.660714285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Record" width="128" height="128"/>
+    </resources>
+</document>
