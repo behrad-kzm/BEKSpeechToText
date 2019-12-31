@@ -26,7 +26,8 @@ First of all, set your Google API key to BEKSpeech instance like below:
 ```
 __2- Add key to Info.plist:__
 
-Before you start recording the user's voice you need to grant access to the device's microphone, so add ``` Privacy - Microphone Usage Description ```  into your ``` Info.plist ```  file.
+Before you start recording the user's voice you need to grant access to the device's microphone, so add 
+``` Privacy - Microphone Usage Description ```  into your ``` Info.plist ```  file.
 
 __3- Create an instance of BEKSpeech:__
 
