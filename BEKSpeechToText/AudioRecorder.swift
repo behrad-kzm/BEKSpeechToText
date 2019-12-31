@@ -1,6 +1,6 @@
 //
 //  AudioRecorder.swift
-//  BEKPersianSpeechToText
+//  BEKSpeechToText
 //
 //  Created by Behrad Kazemi on 12/30/19.
 //  Copyright © 2019 BEKApps. All rights reserved.
