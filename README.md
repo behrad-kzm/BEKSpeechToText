@@ -1,5 +1,5 @@
 # BEKSpeechToText
-A Swift Library to Convert Speech to Text Using Google API
+A Swift Library to Convert Speech to Text Using Google's Cloud Machine Learning APIs.
 
 Using the configuration you can change the language from the default (Persian) to all google's supported languages.
 
