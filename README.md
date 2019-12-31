@@ -3,6 +3,8 @@ A Swift Library to Convert Speech to Text Using Google's Cloud Machine Learning 
 
 Using the configuration you can change the language from the default (Persian) to all google's supported languages.
 
+__Important Note:__
+Current cofiguration is set for ```Persian``` language,
 <img src="https://github.com/behrad-kzm/BEKDesing/blob/master/Images/BEKHeader.png">
 
 [![CI Status](http://img.shields.io/travis/popwarsweet/JellySlider.svg?style=flat)](https://travis-ci.org/popwarsweet/JellySlider)
