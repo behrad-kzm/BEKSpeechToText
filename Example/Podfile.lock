@@ -1,0 +1,16 @@
+PODS:
+  - BEKSpeechToText (0.1.0)
+
+DEPENDENCIES:
+  - BEKSpeechToText (from `../`)
+
+EXTERNAL SOURCES:
+  BEKSpeechToText:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BEKSpeechToText: 84ae118aad5a7c61dd2f8b331631dba3c688a738
+
+PODFILE CHECKSUM: 01e52bd285067922b560d72123f0aac78bcfef57
+
+COCOAPODS: 1.8.4

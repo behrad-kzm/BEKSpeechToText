@@ -40,12 +40,12 @@
 		607FACE51AFB9204008FA782 /* BEKSpeechToText_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BEKSpeechToText_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		773D5560C703AFF7B68CBDFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		773D5560C703AFF7B68CBDFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8FDCDAAB1D9D5C4136646524 /* Pods-BEKSpeechToText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEKSpeechToText_Example.debug.xcconfig"; path = "Target Support Files/Pods-BEKSpeechToText_Example/Pods-BEKSpeechToText_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AA0D09C00FFF730E56E10ADC /* Pods_BEKSpeechToText_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEKSpeechToText_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5242A0B3BCF9FB0315C595F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C5242A0B3BCF9FB0315C595F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DD8C923FCD02DB69C5C188CA /* Pods_BEKSpeechToText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEKSpeechToText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEB612314727E26F88D91964 /* BEKSpeechToText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BEKSpeechToText.podspec; path = ../BEKSpeechToText.podspec; sourceTree = "<group>"; };
+		EEB612314727E26F88D91964 /* BEKSpeechToText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BEKSpeechToText.podspec; path = ../BEKSpeechToText.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F9818D56BF3A3E3330FEEF69 /* Pods-BEKSpeechToText_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEKSpeechToText_Example.release.xcconfig"; path = "Target Support Files/Pods-BEKSpeechToText_Example/Pods-BEKSpeechToText_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				495D437A225B84216D74254D /* Pods-BEKSpeechToText_Tests.debug.xcconfig */,
 				09C04FDBC613DCF0F358DA4D /* Pods-BEKSpeechToText_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

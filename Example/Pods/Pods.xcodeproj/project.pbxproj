@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AF3EED860A30C04314A5BC801873AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		132AEDFE23BB3B1900A64670 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDF623BB3B1900A64670 /* ResultModel.swift */; };
+		132AEE0023BB3B1900A64670 /* BEKSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDF823BB3B1900A64670 /* BEKSpeech.swift */; };
+		132AEE0123BB3B1900A64670 /* BEKDefaultConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDF923BB3B1900A64670 /* BEKDefaultConfiguration.swift */; };
+		132AEE0223BB3B1900A64670 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDFA23BB3B1900A64670 /* AudioRecorder.swift */; };
+		132AEE0323BB3B1900A64670 /* BEKSpeechConfigType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDFB23BB3B1900A64670 /* BEKSpeechConfigType.swift */; };
+		132AEE0423BB3B1900A64670 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDFC23BB3B1900A64670 /* APIHandler.swift */; };
+		132AEE0523BB3B1900A64670 /* BEKSpeechDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AEDFD23BB3B1900A64670 /* BEKSpeechDelegate.swift */; };
+		1CC9AB3E37A34CA51F813E1CF377B10C /* BEKSpeechToText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE33E0104B4F740C15382DADFC86E5 /* BEKSpeechToText-dummy.m */; };
+		20C9E4181622B515D75E7F356D8EBFE2 /* Pods-BEKSpeechToText_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F833891B69A525D6B7C8938B7A0389 /* Pods-BEKSpeechToText_Example-dummy.m */; };
+		2B62EF6A043497F94C979AB4627CE3EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3C0A2D4BAA760105E3D270B95C9555C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3D0F9273433C7EA0914868DFBD0DB089 /* Pods-BEKSpeechToText_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC5BA81FEC042BA9C83A5575E2A0F6A /* Pods-BEKSpeechToText_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50FAC1BF792D945FF2FF06C00A9D7ECD /* Pods-BEKSpeechToText_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 084E4FA04E43A84EC42B16026B00C291 /* Pods-BEKSpeechToText_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68BA86451C280FCC602A4F976852A64F /* BEKSpeechToText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFB1A15D6E695BA82303EDE2D899629 /* BEKSpeechToText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68C45A71886B9B2835EE3DF74E181990 /* Pods-BEKSpeechToText_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D712FF3268183D3CB6076D057825E2 /* Pods-BEKSpeechToText_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172C73CB1D16946C4323B75FBEB068D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963EA9DEA9F6B1B97EB52AF2CFF83BD6;
+			remoteInfo = "Pods-BEKSpeechToText_Example";
+		};
+		61F330E629A69C908EC3FDFE1EE5DE99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E753135045E0D76F406E8254CA7C2D63;
+			remoteInfo = BEKSpeechToText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084E4FA04E43A84EC42B16026B00C291 /* Pods-BEKSpeechToText_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEKSpeechToText_Example-umbrella.h"; sourceTree = "<group>"; };
+		0AB7777801D91C4AB292A4AC90527FE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		12B2D87131937D6F6C20B606E4B79A64 /* Pods_BEKSpeechToText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEKSpeechToText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		132AEDF623BB3B1900A64670 /* ResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
+		132AEDF823BB3B1900A64670 /* BEKSpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKSpeech.swift; sourceTree = "<group>"; };
+		132AEDF923BB3B1900A64670 /* BEKDefaultConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKDefaultConfiguration.swift; sourceTree = "<group>"; };
+		132AEDFA23BB3B1900A64670 /* AudioRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		132AEDFB23BB3B1900A64670 /* BEKSpeechConfigType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKSpeechConfigType.swift; sourceTree = "<group>"; };
+		132AEDFC23BB3B1900A64670 /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		132AEDFD23BB3B1900A64670 /* BEKSpeechDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKSpeechDelegate.swift; sourceTree = "<group>"; };
+		148391B3D8450C93312D7F4F506869C4 /* Pods-BEKSpeechToText_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BEKSpeechToText_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1630C0F053F7EAA302DEAB41B36C7C8F /* Pods-BEKSpeechToText_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEKSpeechToText_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1FCE33E0104B4F740C15382DADFC86E5 /* BEKSpeechToText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEKSpeechToText-dummy.m"; sourceTree = "<group>"; };
+		20D712FF3268183D3CB6076D057825E2 /* Pods-BEKSpeechToText_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEKSpeechToText_Tests-dummy.m"; sourceTree = "<group>"; };
+		2FFB1A15D6E695BA82303EDE2D899629 /* BEKSpeechToText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEKSpeechToText-umbrella.h"; sourceTree = "<group>"; };
+		308F6EE115B352F975A0551069318695 /* Pods-BEKSpeechToText_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEKSpeechToText_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37927370AAA9E65E41A1E3E93608C69C /* Pods-BEKSpeechToText_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEKSpeechToText_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EBB517379CC1DAAA33098A6DCD0CD83 /* Pods-BEKSpeechToText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEKSpeechToText_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		50ACBEE5214CD485144A6B1F129C7C22 /* BEKSpeechToText-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEKSpeechToText-Info.plist"; sourceTree = "<group>"; };
+		529BA67949EB29720936292902B24C60 /* Pods-BEKSpeechToText_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEKSpeechToText_Example-Info.plist"; sourceTree = "<group>"; };
+		52F833891B69A525D6B7C8938B7A0389 /* Pods-BEKSpeechToText_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEKSpeechToText_Example-dummy.m"; sourceTree = "<group>"; };
+		6AAA1DF8B10ED1DA903CF8ED4AE2833F /* Pods_BEKSpeechToText_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEKSpeechToText_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8542BC5E22A9B0DCA5C5A8DEAF4F5959 /* Pods-BEKSpeechToText_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BEKSpeechToText_Example-frameworks.sh"; sourceTree = "<group>"; };
+		879FD2506D60842817C8C775158585C1 /* Pods-BEKSpeechToText_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BEKSpeechToText_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4199FF42921204F4AED57490B9CB196 /* BEKSpeechToText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEKSpeechToText-prefix.pch"; sourceTree = "<group>"; };
+		AB8DDF14934B9AE5C21F2B9E92728D7D /* Pods-BEKSpeechToText_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEKSpeechToText_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC2BFF6E45BCE7427A637A19F34FFB32 /* BEKSpeechToText.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BEKSpeechToText.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACC5BA81FEC042BA9C83A5575E2A0F6A /* Pods-BEKSpeechToText_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEKSpeechToText_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B3F2F030FEEBA5E988393D29E9634150 /* Pods-BEKSpeechToText_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEKSpeechToText_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BFB5FB862B368BC8F536DCB5FB3669E5 /* Pods-BEKSpeechToText_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEKSpeechToText_Tests-Info.plist"; sourceTree = "<group>"; };
+		C4B08300ED58D86E29585B020BCA5864 /* BEKSpeechToText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BEKSpeechToText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19851493C4CF64A8B0C2C94A4222135 /* Pods-BEKSpeechToText_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEKSpeechToText_Example.modulemap"; sourceTree = "<group>"; };
+		F0A80F6FC007EAA8FDE91DF45B076F7D /* Pods-BEKSpeechToText_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEKSpeechToText_Tests.modulemap"; sourceTree = "<group>"; };
+		F613AA37DCB391E3E8C644084BA8B72B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F749D15ACD67D86109939DA62E29B2A8 /* BEKSpeechToText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEKSpeechToText.modulemap; sourceTree = "<group>"; };
+		FC0769FA290193172A8A664E681C5928 /* BEKSpeechToText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEKSpeechToText.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051D93440B6D8294465CB53AE7EC4FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B62EF6A043497F94C979AB4627CE3EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F4A6BF127D0DC1F26873508003E351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0A2D4BAA760105E3D270B95C9555C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD61961DF543916A4CC1F7AF95B968A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00AF3EED860A30C04314A5BC801873AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		132AEDF523BB3A6800A64670 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				132AEDFC23BB3B1900A64670 /* APIHandler.swift */,
+				132AEDFA23BB3B1900A64670 /* AudioRecorder.swift */,
+				132AEDF923BB3B1900A64670 /* BEKDefaultConfiguration.swift */,
+				132AEDF823BB3B1900A64670 /* BEKSpeech.swift */,
+				132AEDFB23BB3B1900A64670 /* BEKSpeechConfigType.swift */,
+				132AEDFD23BB3B1900A64670 /* BEKSpeechDelegate.swift */,
+				132AEDF623BB3B1900A64670 /* ResultModel.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		149F0149FA3481115444AFF559FA652B /* BEKSpeechToText */ = {
+			isa = PBXGroup;
+			children = (
+				8F0E74CFAB4B719D07D620A28A7CF5BC /* Pod */,
+				367BC90C4A0484CCB91DE2D9AF0043AD /* Support Files */,
+			);
+			name = BEKSpeechToText;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		323DEFA400150869750D97E7D22A7E9C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				149F0149FA3481115444AFF559FA652B /* BEKSpeechToText */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		367BC90C4A0484CCB91DE2D9AF0043AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F749D15ACD67D86109939DA62E29B2A8 /* BEKSpeechToText.modulemap */,
+				FC0769FA290193172A8A664E681C5928 /* BEKSpeechToText.xcconfig */,
+				1FCE33E0104B4F740C15382DADFC86E5 /* BEKSpeechToText-dummy.m */,
+				50ACBEE5214CD485144A6B1F129C7C22 /* BEKSpeechToText-Info.plist */,
+				A4199FF42921204F4AED57490B9CB196 /* BEKSpeechToText-prefix.pch */,
+				2FFB1A15D6E695BA82303EDE2D899629 /* BEKSpeechToText-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BEKSpeechToText";
+			sourceTree = "<group>";
+		};
+		73B60883E3043FA4A571F01223E807C7 /* Pods-BEKSpeechToText_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0A80F6FC007EAA8FDE91DF45B076F7D /* Pods-BEKSpeechToText_Tests.modulemap */,
+				879FD2506D60842817C8C775158585C1 /* Pods-BEKSpeechToText_Tests-acknowledgements.markdown */,
+				308F6EE115B352F975A0551069318695 /* Pods-BEKSpeechToText_Tests-acknowledgements.plist */,
+				20D712FF3268183D3CB6076D057825E2 /* Pods-BEKSpeechToText_Tests-dummy.m */,
+				BFB5FB862B368BC8F536DCB5FB3669E5 /* Pods-BEKSpeechToText_Tests-Info.plist */,
+				ACC5BA81FEC042BA9C83A5575E2A0F6A /* Pods-BEKSpeechToText_Tests-umbrella.h */,
+				AB8DDF14934B9AE5C21F2B9E92728D7D /* Pods-BEKSpeechToText_Tests.debug.xcconfig */,
+				1630C0F053F7EAA302DEAB41B36C7C8F /* Pods-BEKSpeechToText_Tests.release.xcconfig */,
+			);
+			name = "Pods-BEKSpeechToText_Tests";
+			path = "Target Support Files/Pods-BEKSpeechToText_Tests";
+			sourceTree = "<group>";
+		};
+		8F0E74CFAB4B719D07D620A28A7CF5BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				132AEDF523BB3A6800A64670 /* Classes */,
+				AC2BFF6E45BCE7427A637A19F34FFB32 /* BEKSpeechToText.podspec */,
+				F613AA37DCB391E3E8C644084BA8B72B /* LICENSE */,
+				0AB7777801D91C4AB292A4AC90527FE0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		92FFB762DF3F0F9AF3D494BF8C9E2CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4B08300ED58D86E29585B020BCA5864 /* BEKSpeechToText.framework */,
+				6AAA1DF8B10ED1DA903CF8ED4AE2833F /* Pods_BEKSpeechToText_Example.framework */,
+				12B2D87131937D6F6C20B606E4B79A64 /* Pods_BEKSpeechToText_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93AE332B54E39C8F2D5A3B854AB66618 /* Pods-BEKSpeechToText_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E19851493C4CF64A8B0C2C94A4222135 /* Pods-BEKSpeechToText_Example.modulemap */,
+				148391B3D8450C93312D7F4F506869C4 /* Pods-BEKSpeechToText_Example-acknowledgements.markdown */,
+				37927370AAA9E65E41A1E3E93608C69C /* Pods-BEKSpeechToText_Example-acknowledgements.plist */,
+				52F833891B69A525D6B7C8938B7A0389 /* Pods-BEKSpeechToText_Example-dummy.m */,
+				8542BC5E22A9B0DCA5C5A8DEAF4F5959 /* Pods-BEKSpeechToText_Example-frameworks.sh */,
+				529BA67949EB29720936292902B24C60 /* Pods-BEKSpeechToText_Example-Info.plist */,
+				084E4FA04E43A84EC42B16026B00C291 /* Pods-BEKSpeechToText_Example-umbrella.h */,
+				4EBB517379CC1DAAA33098A6DCD0CD83 /* Pods-BEKSpeechToText_Example.debug.xcconfig */,
+				B3F2F030FEEBA5E988393D29E9634150 /* Pods-BEKSpeechToText_Example.release.xcconfig */,
+			);
+			name = "Pods-BEKSpeechToText_Example";
+			path = "Target Support Files/Pods-BEKSpeechToText_Example";
+			sourceTree = "<group>";
+		};
+		993464D0F0E6F7367270E8F7D97353EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AE332B54E39C8F2D5A3B854AB66618 /* Pods-BEKSpeechToText_Example */,
+				73B60883E3043FA4A571F01223E807C7 /* Pods-BEKSpeechToText_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				323DEFA400150869750D97E7D22A7E9C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				92FFB762DF3F0F9AF3D494BF8C9E2CF4 /* Products */,
+				993464D0F0E6F7367270E8F7D97353EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C6170828712290B371C9F64C39D2921D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BA86451C280FCC602A4F976852A64F /* BEKSpeechToText-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD75E7DD17955C466552211D7BD6EF4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FAC1BF792D945FF2FF06C00A9D7ECD /* Pods-BEKSpeechToText_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C84382C21737974B0ECA40C1BEB60A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0F9273433C7EA0914868DFBD0DB089 /* Pods-BEKSpeechToText_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		963EA9DEA9F6B1B97EB52AF2CFF83BD6 /* Pods-BEKSpeechToText_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8AC529F01445F0C5639967EA7DE967D /* Build configuration list for PBXNativeTarget "Pods-BEKSpeechToText_Example" */;
+			buildPhases = (
+				CD75E7DD17955C466552211D7BD6EF4F /* Headers */,
+				B423FEF9E3D612821B5D61C306CBDF8C /* Sources */,
+				CDD61961DF543916A4CC1F7AF95B968A /* Frameworks */,
+				658C272DCB6FC8AF753E7BC60ADCDAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE153920478ECBC8562CE10A09506F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-BEKSpeechToText_Example";
+			productName = "Pods-BEKSpeechToText_Example";
+			productReference = 6AAA1DF8B10ED1DA903CF8ED4AE2833F /* Pods_BEKSpeechToText_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E753135045E0D76F406E8254CA7C2D63 /* BEKSpeechToText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A75E02B648AEAA10BB110D6082D86D /* Build configuration list for PBXNativeTarget "BEKSpeechToText" */;
+			buildPhases = (
+				C6170828712290B371C9F64C39D2921D /* Headers */,
+				8086ED8BFCCC6FE25F716AAE69A21C36 /* Sources */,
+				051D93440B6D8294465CB53AE7EC4FA8 /* Frameworks */,
+				C5CEC1984634E137C421320B2C292FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEKSpeechToText;
+			productName = BEKSpeechToText;
+			productReference = C4B08300ED58D86E29585B020BCA5864 /* BEKSpeechToText.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8F597EFD7270DAA38B3E0AE6AA4A3C7 /* Pods-BEKSpeechToText_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B36908A54B8E9013648B1DF9545516D /* Build configuration list for PBXNativeTarget "Pods-BEKSpeechToText_Tests" */;
+			buildPhases = (
+				F2C84382C21737974B0ECA40C1BEB60A /* Headers */,
+				905EEEABE86EC7112ECA85AA674BF0E3 /* Sources */,
+				52F4A6BF127D0DC1F26873508003E351 /* Frameworks */,
+				B61004FF482F14875C62C951CD3D3881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0CAC191208759A2CF4F268359B294B /* PBXTargetDependency */,
+			);
+			name = "Pods-BEKSpeechToText_Tests";
+			productName = "Pods-BEKSpeechToText_Tests";
+			productReference = 12B2D87131937D6F6C20B606E4B79A64 /* Pods_BEKSpeechToText_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					E753135045E0D76F406E8254CA7C2D63 = {
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 92FFB762DF3F0F9AF3D494BF8C9E2CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E753135045E0D76F406E8254CA7C2D63 /* BEKSpeechToText */,
+				963EA9DEA9F6B1B97EB52AF2CFF83BD6 /* Pods-BEKSpeechToText_Example */,
+				F8F597EFD7270DAA38B3E0AE6AA4A3C7 /* Pods-BEKSpeechToText_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		658C272DCB6FC8AF753E7BC60ADCDAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61004FF482F14875C62C951CD3D3881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CEC1984634E137C421320B2C292FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8086ED8BFCCC6FE25F716AAE69A21C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132AEE0423BB3B1900A64670 /* APIHandler.swift in Sources */,
+				132AEDFE23BB3B1900A64670 /* ResultModel.swift in Sources */,
+				1CC9AB3E37A34CA51F813E1CF377B10C /* BEKSpeechToText-dummy.m in Sources */,
+				132AEE0323BB3B1900A64670 /* BEKSpeechConfigType.swift in Sources */,
+				132AEE0023BB3B1900A64670 /* BEKSpeech.swift in Sources */,
+				132AEE0123BB3B1900A64670 /* BEKDefaultConfiguration.swift in Sources */,
+				132AEE0223BB3B1900A64670 /* AudioRecorder.swift in Sources */,
+				132AEE0523BB3B1900A64670 /* BEKSpeechDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905EEEABE86EC7112ECA85AA674BF0E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C45A71886B9B2835EE3DF74E181990 /* Pods-BEKSpeechToText_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B423FEF9E3D612821B5D61C306CBDF8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C9E4181622B515D75E7F356D8EBFE2 /* Pods-BEKSpeechToText_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE153920478ECBC8562CE10A09506F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEKSpeechToText;
+			target = E753135045E0D76F406E8254CA7C2D63 /* BEKSpeechToText */;
+			targetProxy = 61F330E629A69C908EC3FDFE1EE5DE99 /* PBXContainerItemProxy */;
+		};
+		FA0CAC191208759A2CF4F268359B294B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BEKSpeechToText_Example";
+			target = 963EA9DEA9F6B1B97EB52AF2CFF83BD6 /* Pods-BEKSpeechToText_Example */;
+			targetProxy = 172C73CB1D16946C4323B75FBEB068D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10B3C57BA9C3B8D5F9E4B4EAA3A3A025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0769FA290193172A8A664E681C5928 /* BEKSpeechToText.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEKSpeechToText/BEKSpeechToText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEKSpeechToText/BEKSpeechToText-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEKSpeechToText/BEKSpeechToText.modulemap";
+				PRODUCT_MODULE_NAME = BEKSpeechToText;
+				PRODUCT_NAME = BEKSpeechToText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E472D42376F59BFA32F76D965574D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F2F030FEEBA5E988393D29E9634150 /* Pods-BEKSpeechToText_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BEKSpeechToText_Example/Pods-BEKSpeechToText_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BEKSpeechToText_Example/Pods-BEKSpeechToText_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA8374D2927D804B503C2A2E85817DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1630C0F053F7EAA302DEAB41B36C7C8F /* Pods-BEKSpeechToText_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BEKSpeechToText_Tests/Pods-BEKSpeechToText_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BEKSpeechToText_Tests/Pods-BEKSpeechToText_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BF7EDB6EB10E3C4A10B5518638903CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBB517379CC1DAAA33098A6DCD0CD83 /* Pods-BEKSpeechToText_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BEKSpeechToText_Example/Pods-BEKSpeechToText_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BEKSpeechToText_Example/Pods-BEKSpeechToText_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C06C101F2E2034A489AF6373741E1699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8DDF14934B9AE5C21F2B9E92728D7D /* Pods-BEKSpeechToText_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BEKSpeechToText_Tests/Pods-BEKSpeechToText_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BEKSpeechToText_Tests/Pods-BEKSpeechToText_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDF2605B49625E1CAA63A1915C2FC7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0769FA290193172A8A664E681C5928 /* BEKSpeechToText.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEKSpeechToText/BEKSpeechToText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEKSpeechToText/BEKSpeechToText-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEKSpeechToText/BEKSpeechToText.modulemap";
+				PRODUCT_MODULE_NAME = BEKSpeechToText;
+				PRODUCT_NAME = BEKSpeechToText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B36908A54B8E9013648B1DF9545516D /* Build configuration list for PBXNativeTarget "Pods-BEKSpeechToText_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06C101F2E2034A489AF6373741E1699 /* Debug */,
+				AA8374D2927D804B503C2A2E85817DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A75E02B648AEAA10BB110D6082D86D /* Build configuration list for PBXNativeTarget "BEKSpeechToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B3C57BA9C3B8D5F9E4B4EAA3A3A025 /* Debug */,
+				EDF2605B49625E1CAA63A1915C2FC7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8AC529F01445F0C5639967EA7DE967D /* Build configuration list for PBXNativeTarget "Pods-BEKSpeechToText_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7EDB6EB10E3C4A10B5518638903CBC /* Debug */,
+				1E472D42376F59BFA32F76D965574D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
