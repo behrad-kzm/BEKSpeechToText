@@ -110,7 +110,7 @@ speechToTextManager.configuration = MyConfiguration()
 ## Installation
 ```
 
-  pod 'BEKSpeechToText', '~> 1.0.0'
+     pod 'BEKSpeechToText', :git => 'https://github.com/behrad-kzm/BEKSpeechToText.git'
 
 ```
 
