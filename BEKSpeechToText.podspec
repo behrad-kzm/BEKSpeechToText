@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BEKSpeechToText'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of BEKSpeechToText.'
   s.summary      = "A Swift Library to Convert Speech to Text Using Google API"
 # This description is used to generate tags and improve search results.
